@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-image: url(../images/bg.jpg) ;
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color:white;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+    /* start header */
+
+header {
+    text-align: center;
+    color:white;
+}
+
+header h1 {
+    font-size: 80px;
+    padding-top: 40px;
+    margin-bottom: auto;
+    text-shadow: 6px 7px 4px black;
+}
+header p{
+    margin-top: 0px;
+    font-size: 23px;
+    color:rgba(255, 255, 255, 0.726) ;
+}
+
+    /* End header */
+
+
+.container .special {
+    background-image:url(../images/pic02.jpg );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+    /*start article */
+
+.container article .address{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 130px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container article .address div h2 {
+    font-size: 33px;
+}
+
+.container article .address div p {
+    color:rgb(110, 105, 105);
+    font-size: 25px;
+}
+
+.three {
+    background-color: #ddd;
+    color: black;
+    padding: 60px;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.three p{
+    color: rgb(82 65 65);
+    font-size: x-large;
+}
+
+    /*End article  */
+
+    /*start main */
+
+.four {
+    background-color:rgb(34, 33, 33);
+    padding: 100px;
+}
+
+.four .fire {
+    background-color: #000000;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four div h2 {
+    font-size: 33px;
+}
+
+.fire div p {
+    color: rgb(80, 75, 75);
+    font-size: 25px;
+}
+
+.four .images {
+    display: flex;
+    flex-wrap: wrap;
+}
+.four .images img {
+    width: 50%;
+    height: 400px;
+}
+    /* End main */
+
+        /* start container */
+
+.five {
+    display: flex;
+    flex-direction: column;
+}
+.five .qq {
+    display: flex;
+}
+
+.five .qq img {
+    width: 50%;
+    height: 400px;
+}
+
+.heading {
+    background-color: #ddd;
+    height: 400px;
+    width: 50%;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.heading h2 {
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 45px;
+}
+.heading p {
+    color: rgb(80, 75, 75);
+    font-size: 23px;
+    line-height: 39px;
+    padding-top: 37px;
+}
+
+.index {
+    background-color: rgb(37, 35, 35);
+}
+
+.index h2 {
+    color: #ddd;
+}
+
+.index p {
+    color: rgb(180, 175, 175);
+}
+
+    /* start footer */
+
+footer{display: flex;
+    background-image: linear-gradient(to right, #222121, #554d4d, #222121);
+    height: 80px;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.fab , .far {
+    font-size: 40px;
+    color: rgb(202, 198, 198);
+}
+
+.fab:hover, .far:hover {
+    color: white;
+}
+footer .lo{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        /* End container */
